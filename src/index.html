@@ -7,10 +7,38 @@
   </head>
   <body>
     <div id="root">
-      <h1>DES-CIFRALO</h1>
-      <p></p>
+      <h1>DES-CIFRA TU NOMBRE</h1>
+      <p>Encripta y descifra tu nombre utilizando el Cifrado César</p>
+      
+      <button id= 'btn'  onClick='enter ()'> CIFRAR </button>
+      <button id= 'btn2' onClick='enter ()'> DESCIFRAR </button>
+
+      <p>Ingresa el desplazamiento que deseas </p>
+      <input id='offset' type="text"/> //solo numeros
+      <button id= 'btn3' onClick='enter ()'> ENVIAR </button>
+
+      <p>Ingresa la palabra a cifrar </p>
+      <input id='text' type="text"/>
+      <button id= 'btn4' onClick='enter ()'> ENVIAR </button>
+
+      // arrojar texto codificado//
+
+      <p>Ingresa el desplazamiento que se usó</p>
+      <input id='offset2' type="text"/>
+      <button id= 'btn5' onClick='enter ()'> ENVIAR </button>
+
+      <p>Ingresa la palabra a descifrar </p>
+      <input id='text' type="text"/>
+      <button id= 'btn6' onClick='enter ()'> ENVIAR </button>
+
+      
+      // arrojar texto  decodificado//
+
+      
     </div>
 
+
+</div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
