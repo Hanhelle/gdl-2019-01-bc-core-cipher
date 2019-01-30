@@ -10,29 +10,32 @@
       <h1>DES-CIFRA TU NOMBRE</h1>
       <p>Encripta y descifra tu nombre utilizando el Cifrado César</p>
       
-      <button id= 'btn'  onClick='enter ()'> CIFRAR </button>
-      <button id= 'btn2' onClick='enter ()'> DESCIFRAR </button>
+      <button id= 'btn'> CIFRAR </button>
+      <button id= 'btn2'> DESCIFRAR </button>
 
-      <p>Ingresa el desplazamiento que deseas </p>
-      <input id='offset' type="text"/> //solo numeros
-      <button id= 'btn3' onClick='enter ()'> ENVIAR </button>
+      <div id="cifrador" style="display: none;">
+        <p>Ingresa el desplazamiento que deseas </p>
+        <input id='desp' type="number" min="1" max="99"/> <!--solo numeros-->
+        
+        <p>Ingresa la palabra a cifrar </p>
+        <input id='texto' type="text"/>
+        <button id= 'btn3'> CIFRAR </button>
+        <p id="cif"> </p>
+      </div>
+      <!-- arrojar texto codificado-->
 
-      <p>Ingresa la palabra a cifrar </p>
-      <input id='text' type="text"/>
-      <button id= 'btn4' onClick='enter ()'> ENVIAR </button>
-
-      // arrojar texto codificado//
-
+      <div id="descifrador" style="display: none;">
       <p>Ingresa el desplazamiento que se usó</p>
-      <input id='offset2' type="text"/>
-      <button id= 'btn5' onClick='enter ()'> ENVIAR </button>
-
+      <input id='desp2' type="number" min="1" max="99"/> <!--solo numeros-->
+     
       <p>Ingresa la palabra a descifrar </p>
       <input id='text' type="text"/>
-      <button id= 'btn6' onClick='enter ()'> ENVIAR </button>
-
+      <button id= 'btn4'> DESCIFRAR </button>
+      <p id="descif"></p>
+      </div>
+      <!-- arrojar texto codificado-->
       
-      // arrojar texto  decodificado//
+      
 
       
     </div>
