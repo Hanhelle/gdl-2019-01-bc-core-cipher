@@ -8,7 +8,10 @@
   <body>
     <div id="root">
       <h1>DES-CIFRA TU NOMBRE</h1>
-      <p>Encripta y descifra tu nombre utilizando el Cifrado César</p>
+      <p>Encripta y descifra tu nombre utilizando el Cifrado César.</p><br>
+      <p>Solo hay que ingresar un número de desplazamiento que deseas y la palabra
+        que queires cifrar o el código que quieres descifrar.
+      </p><br>
       
       <button id= 'btn'> CIFRAR </button>
       <button id= 'btn2'> DESCIFRAR </button>
@@ -20,7 +23,8 @@
         <p>Ingresa la palabra a cifrar </p>
         <input id='texto' type="text"/>
         <button id= 'btn3'> CIFRAR </button>
-        <p id="cif"> </p>
+        <p><output name=textcipher.encode.window,cipher > </p>
+        <!--falta progrmar como desplegar el resultado-->
       </div>
       <!-- arrojar texto codificado-->
 
@@ -29,9 +33,9 @@
       <input id='desp2' type="number" min="1" max="99"/> <!--solo numeros-->
      
       <p>Ingresa la palabra a descifrar </p>
-      <input id='text' type="text"/>
+      <input id='code' type="text"/>
       <button id= 'btn4'> DESCIFRAR </button>
-      <p id="descif"></p>
+      <p id="descif"></p><!--falta progrmar como desplegar el resultado-->
       </div>
       <!-- arrojar texto codificado-->
       
