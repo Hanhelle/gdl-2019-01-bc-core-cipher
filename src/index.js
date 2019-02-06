@@ -6,7 +6,8 @@ let btn2= document.getElementById("btn2");
 let descifrador= document.getElementById("descifrador");
 let btn3= document.getElementById("btn3");
 let btn4= document.getElementById("btn4");
-
+let codigoResultado=document.getElementById("codigo");
+let descifradoResultado=document.getElementById("descif");
 
 btn.addEventListener("click", () => {
     if (cifrador.style.display === "none") {
@@ -26,17 +27,14 @@ btn2.addEventListener("click", () => {
 
 
 btn3.addEventListener("click", ()=> {
-const desp= document.getElementById("desp").value;
-let text= document.getElementById("texto").value;
-window.cipher.encode(desp, text);
-    
+    const desp= document.getElementById("desp").value;
+    let text= document.getElementById("texto").value;    
+    codigoResultado.innerHTML =  window.cipher.encode(parseInt(desp), text);
 });
 
 btn4.addEventListener("click", ()=> {
-    //console.log("boton4 descifrar");
-    const desp2= document.getElementById("desp2").value;
+     const desp2= document.getElementById("desp2").value;
     let code= document.getElementById("code").value;
-    //console.log(desp2);
-    window.cipher.decode(desp2, code);
+    codigoResultado.innerHTML =window.cipher.decode(parseInt(desp2), code);
 });
    

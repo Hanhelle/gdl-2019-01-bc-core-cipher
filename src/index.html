@@ -13,31 +13,30 @@
         que queires cifrar o el código que quieres descifrar.
       </p><br>
       
-      <button id= 'btn'> CIFRAR </button>
-      <button id= 'btn2'> DESCIFRAR </button>
+      <button id= "btn"> CIFRAR </button>
+      <button id= "btn2"> DESCIFRAR </button>
 
       <div id="cifrador" style="display: none;">
         <p>Ingresa el desplazamiento que deseas </p>
-        <input id='desp' type="number" min="1" max="99"/> <!--solo numeros-->
+        <input id="desp" type="number" min="1" max="99"/> 
         
         <p>Ingresa la palabra a cifrar </p>
-        <input id='texto' type="text"/>
-        <button id= 'btn3'> CIFRAR </button>
-        <p><output name=textcipher.encode.window,cipher > </p>
-        <!--falta progrmar como desplegar el resultado-->
+        <input id="texto" type="text"/>
+        <button id= "btn3"> CIFRAR </button>
+        <p id="codigo"></p>
+        
       </div>
-      <!-- arrojar texto codificado-->
+      
 
       <div id="descifrador" style="display: none;">
       <p>Ingresa el desplazamiento que se usó</p>
-      <input id='desp2' type="number" min="1" max="99"/> <!--solo numeros-->
+      <input id="desp2" type="number" min="1" max="99"/> 
      
       <p>Ingresa la palabra a descifrar </p>
-      <input id='code' type="text"/>
-      <button id= 'btn4'> DESCIFRAR </button>
-      <p id="descif"></p><!--falta progrmar como desplegar el resultado-->
+      <input id="code" type="text"/>
+      <button id= "btn4"> DESCIFRAR </button>
+      <p id="descif"></p>
       </div>
-      <!-- arrojar texto codificado-->
       
       
 
@@ -45,7 +44,7 @@
     </div>
 
 
-</div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
