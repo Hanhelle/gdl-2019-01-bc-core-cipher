@@ -1,12 +1,92 @@
 
 
 
+body{
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/ff/05/a5/ff05a57dbb8ff8a1e11740d81380c792.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+h1 {
+    font-size: 80px;
+    color: blueviolet; 
+    font-family: fantasy;
+    text-align: center;
+    text-shadow: 4px 4px 5px whitesmoke;
+
+}
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    text-align:center; 
+    color: palevioletred;  
+    font-weight: bolder;
+}
+
+#btn {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: dimgray;
+    border-radius: 6px;
+    border: 2px solid  teal;
+
+}
+
+    
 
 
+#btn2{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: dimgray;
+    border-radius: 6px;
+    border: 2px solid  teal;
+}
+
+#btn3{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 80;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: dimgray;
+    border-radius: 6px;
+    border: 2px solid  teal;
+}
+#btn4{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 80;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: dimgray;
+    border-radius: 6px;
+    border: 2px solid  teal;
+}
 
 
 #codigo {
-    border: 1px solid black;
-    color: purple;
+   
+    font-size: 80;
+
+    color: rgb(46, 13, 46);
+    text-align: center;
+}
+
+#descif{
+    font-size: 80;
+
+    color:  rgb(46, 13, 46);
     text-align: center;
 }

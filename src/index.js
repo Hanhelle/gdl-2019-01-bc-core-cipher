@@ -35,6 +35,6 @@ btn3.addEventListener("click", ()=> {
 btn4.addEventListener("click", ()=> {
      const desp2= document.getElementById("desp2").value;
     let code= document.getElementById("code").value;
-    codigoResultado.innerHTML =window.cipher.decode(parseInt(desp2), code);
+    descifradoResultado.innerHTML = window.cipher.decode(parseInt(desp2), code);
 });
    
