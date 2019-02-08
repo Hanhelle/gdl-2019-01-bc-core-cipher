@@ -17,7 +17,7 @@ Por ejemplo, si usamos un desplazamiento de 3 posiciones:
 * La letra A se cifra como D.
 * La palabra CASA se cifra como FDVD.
 
-## Propósito de la web-app
+## Propósito de la web-app y principales usuarios.
 Está dirigido a adolescentes, con un propósito de entretenimiento, al codificar y decodificar mensajes que les parezcan importantes o deseen conservar privados.
 Ya no tendrán la necesidad de crear un sistema para codificar, lo que les tomaría mucho tiempo.
 
