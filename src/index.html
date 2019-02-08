@@ -13,17 +13,18 @@
         El cifrado césar es una de las técnicas más simples para cifrar un mensaje.
         Es un tipo de cifrado por sustitución, es decir que cada letra del texto 
         original es reemplazada por otra que se encuentra un número fijo de posiciones
-        (desplazamiento) más adelante en el mismo alfabeto.
+        (desplazamiento) más adelante en el mismo.
+        Nota: SOLO MAYUSCULAS
       </p><br>
       
       <button id= "btn"> CIFRAR </button>
       <button id= "btn2"> DESCIFRAR </button>
 
       <div id="cifrador" style="display: none;">
-        <p>Ingresa el desplazamiento que deseas </p>
+        <p id>Ingresa el desplazamiento que deseas </p>
         <input id="desp" type="number" min="1" max="99"/> 
         
-        <p>Ingresa la palabra a cifrar </p>
+        <p id>Ingresa la palabra a cifrar </p>
         <input id="texto" type="text"/>
         <button id= "btn3"> CIFRAR </button>
         <p id="codigo"></p>
@@ -32,7 +33,7 @@
       
 
       <div id="descifrador" style="display: none;">
-      <p>Ingresa el desplazamiento que se usó</p>
+      <p id="t3"> Ingresa el desplazamiento que se usó</p>
       <input id="desp2" type="number" min="1" max="99"/> 
      
       <p>Ingresa la palabra a descifrar </p>
